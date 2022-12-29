@@ -1,0 +1,25 @@
+h1{
+    color: blue;
+    background-color: lightblue;
+}
+p{
+    background-color: yellow;
+}
+@media screen and (max-width:768px){
+    h1{
+       
+        background-color: rgb(215, 23, 170);
+    }
+    p{
+        background-color: rgb(225, 39, 179);
+    }
+}
+@media screen and (max-width:378px)and (min-width:230px){
+    h1{
+       
+        background-color: rgb(35, 240, 55);
+    }
+    p{
+        background-color: rgb(14, 230, 21);
+    }
+}
